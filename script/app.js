@@ -6,11 +6,11 @@ const handleBtnClick = (questionNumber) => {
     answers.forEach((answer , index) => {
         if (questionNumber == index) {
             answer.classList.remove('hidden');
-            images[index].src = "/assets/images/icon-minus.svg";
+            images[index].src = "./assets/images/icon-minus.svg";
             buttons[index].setAttribute('aria-expanded' , 'true');
         } else {
             answer.classList.add('hidden');
-            images[index].src = "/assets/images/icon-plus.svg";
+            images[index].src = "./assets/images/icon-plus.svg";
             buttons[index].setAttribute('aria-expanded' , 'false');
         }
     });
