@@ -18,7 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: $pink url("/assets/images/background-pattern-mobile.svg") top/contain no-repeat;
+    background: $pink url("../assets/images/background-pattern-mobile.svg") top/contain no-repeat;
 }
 
 .card {
@@ -73,7 +73,7 @@ body {
 
 @media only screen and (min-width : 1024px) {
     body {
-        background: $pink url("/assets/images/background-pattern-desktop.svg") top/contain no-repeat;
+        background: $pink url("../assets/images/background-pattern-desktop.svg") top/contain no-repeat;
     }
     .card {
         width: 520px;
